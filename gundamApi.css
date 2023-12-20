@@ -1,3 +1,13 @@
 .gundam-button{
     background-color: cyan;
+    width: 200px;
+    overflow:  hidden;
+    border: 5px solid #d7ee0b;
+    clear: both;
+    float: right;
+}
+
+body
+{
+    background-image: url('./pictures/1gundampic1.jpg');
 }
