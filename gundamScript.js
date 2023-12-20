@@ -9,7 +9,7 @@ document.addEventListener('DOMContentLoaded', function(){
         })
         .then(result =>{
             result.forEach(function(elem){
-                console.log(elem)
+                console.log(elem.weapon+": "+elem['weapon grade'])
             })
         })
 })
