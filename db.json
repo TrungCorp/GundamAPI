@@ -1,3 +1,26 @@
 {
-    "users": 
+    "gundams": [
+        {
+            "id": "5782",
+            "name": "RX-78-2 Gundam",
+            "class": "Scout",
+            "weapon": "Nagatana",
+            "weapon grade": "RARE GRADE"
+        },
+        {
+            "id": "4521",
+            "name": "Tomoe Koda",
+            "class": "Medic",
+            "weapon": "Kitana",
+            "weapon grade": "STANDARD GRADE"
+        },
+        {
+            "id": "2157",
+            "name": "Takae Koda",
+            "class": "Ranger",
+            "weapon": "Ancient Crossbow",
+            "weapon grade": "HIGH GRADE"
+        }
+
+    ]
 }
