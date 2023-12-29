@@ -1,5 +1,8 @@
 document.addEventListener('DOMContentLoaded', function(){
-    fetch('http://localhost:3000/gundams')
+    const frameDiv = document.getElementById('gundam-models')
+
+
+    fetch('http://localhost:3000/frames')
         .then(resp =>{
             if(resp.ok)
             {
@@ -9,7 +12,12 @@ document.addEventListener('DOMContentLoaded', function(){
         })
         .then(result =>{
             result.forEach(function(elem){
-                console.log(elem.weapon+": "+elem['weapon grade'])
+                console.log(elem)
+                console.log(elem.name)
+                const newItem = document.createElement('p')
+                newItem.textContent = elem.name
+                
+                frameDiv.appendChild(newItem)
             })
         })
 })

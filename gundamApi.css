@@ -9,5 +9,16 @@
 
 body
 {
-    background-image: url('./pictures/1gundampic1.jpg');
+    background-image: url('./pictures/418124.jpg');
+    
+    background-size: cover;
+
+}
+.frameDiv{
+    
+    text-align: center;
+    border: orange solid 1px;
+    width: 15rem;
+    height: 25rem;
+    color: #d7ee0b;
 }
