@@ -12,11 +12,14 @@ document.addEventListener('DOMContentLoaded', function(){
         })
         .then(result =>{
             result.forEach(function(elem){
-                console.log(elem)
-                console.log(elem.name)
+               
                 const newItem = document.createElement('p')
                 newItem.textContent = elem.name
-                
+                newItem.addEventListener('mouseover',function(){
+                    for(let [key,value] of Object.entries(elem)){
+                        console.log(key,value)
+                    }
+                })
                 frameDiv.appendChild(newItem)
             })
         })

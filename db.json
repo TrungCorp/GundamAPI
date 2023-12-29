@@ -22,7 +22,8 @@
         {
             "id": "03",
             "name": "W-GAMBIT",
-            "class": "Special"
+            "class": "Special",
+            "description": "Bot made with purpose of being self learning and to be loyal to master."
         }
 
     ]
